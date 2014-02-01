@@ -1,11 +1,6 @@
 # stopwords
 
-> Stopwords in various languages in JSON format.
-
-* [Languages](#languages)
-* [Sources](#sources)
-* [License and Copyright](#license-and-copyright)
-
+Stopwords in various languages in JSON format. Include all stopwords with [stopwords-all.json](stopwords-all.json) or see below table for individual language files.
 
 ## Languages
 There are a total of 43 supported languages:

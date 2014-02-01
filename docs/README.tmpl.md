@@ -1,8 +1,6 @@
 # {%= name %}
 
-> {%= description %}
-
-{%= toc %}
+{%= description %} Include all stopwords with [stopwords-all.json](stopwords-all.json) or see below table for individual language files.
 
 ## Languages
 {%= _.doc("supported-languages.md") %}
