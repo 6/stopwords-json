@@ -53,12 +53,19 @@ module.exports = function(grunt) {
     var table = "There are a total of "+languageCodes.length+" supported languages:\n\n";
     table += "Language | Stopword count | File\n";
     table += "--- | --- | ---\n";
+    var rows = [];
     for (var languageCode in stopwords) {
       var wordCount = stopwords[languageCode].length,
           file = "dist/"+languageCode + ".json",
           language = languages.getLanguageInfo(languageCode);
-      table += [language.name, wordCount, file].join(" | ") + "\n";
+      rows.push([language.name, wordCount, file]);
     }
+    rows = _.sortBy(rows, function(row) {
+      return row[0]; // sort by language name
+    });
+    table += _.map(rows, function(row) {
+      return row.join(" | ");
+    }).join("\n");
     fs.writeFileSync("docs/supported-languages.md", table, 'utf-8', {flags: 'w+'});
   });
 
