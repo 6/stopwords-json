@@ -16,7 +16,9 @@ module.exports = function(grunt) {
     return words;
   };
 
-  grunt.registerTask('stopwordsToJson', function() {
+  var _stopwords = null; // Memoize method
+  var getStopwords = function() {
+    if (_stopwords) return _stopwords;
     var stopwords = {};
     _.each(glob.sync('src/**/*.txt'), function(filename) {
       var file = grunt.file.read(filename),
@@ -28,9 +30,16 @@ module.exports = function(grunt) {
         }
       });
     });
-
     for(var language in stopwords) {
       stopwords[language] = stopwords[language].sort();
+    }
+    _stopwords = stopwords;
+    return stopwords;
+  };
+
+  grunt.registerTask('stopwordsToJson', function() {
+    var stopwords = getStopwords();
+    for(var language in stopwords) {
       fs.writeFileSync("dist/"+language+".json", JSON.stringify(stopwords[language]), 'utf-8', {flags: 'w+'});
     }
     fs.writeFileSync("stopwords-all.json", JSON.stringify(stopwords), 'utf-8', {flags: 'w+'});
