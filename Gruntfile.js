@@ -28,6 +28,10 @@ module.exports = function(grunt) {
         }
       });
     });
+
+    for(var language in stopwords) {
+      stopwords[language] = stopwords[language].sort();
+    }
     fs.writeFileSync("stopwords-all.json", JSON.stringify(stopwords), 'utf-8', {flags: 'w+'});
   });
 
