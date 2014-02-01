@@ -67,4 +67,4 @@ Turkish | 279 | [dist/tr.json](dist/tr.json)
 
 ## License and Copyright
 Copyright (c) 2014 Peter Graham, contributors.
-Released under the MIT license
+Released under the Apache-2.0 license
