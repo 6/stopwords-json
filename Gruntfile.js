@@ -28,7 +28,7 @@ module.exports = function(grunt) {
         }
       });
     });
-    fs.writeFileSync("lang-all.json", JSON.stringify(stopwords), 'utf-8', {flags: 'w+'});
+    fs.writeFileSync("stopwords-all.json", JSON.stringify(stopwords), 'utf-8', {flags: 'w+'});
   });
 
   grunt.initConfig({
