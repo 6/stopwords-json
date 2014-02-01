@@ -31,6 +31,7 @@ module.exports = function(grunt) {
 
     for(var language in stopwords) {
       stopwords[language] = stopwords[language].sort();
+      fs.writeFileSync("languages/"+language+".json", JSON.stringify(stopwords[language]), 'utf-8', {flags: 'w+'});
     }
     fs.writeFileSync("stopwords-all.json", JSON.stringify(stopwords), 'utf-8', {flags: 'w+'});
   });
