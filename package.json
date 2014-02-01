@@ -1,0 +1,11 @@
+{
+  "name": "stopwords",
+  "version": "0.0.1",
+  "description": "Stop words",
+  "main": "stopwords.js",
+  "devDependencies": {
+    "glob": "3.2.x",
+    "grunt": "0.4.x",
+    "underscore": "1.5.2"
+  }
+}
