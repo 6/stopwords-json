@@ -9,7 +9,7 @@ Include all stopwords with [stopwords-all.json](stopwords-all.json) or see below
 ## Languages
 There are a total of 43 supported languages:
 
-Language | Stopword count | Filename
+Language | Stopword count | Filename (ISO 639-1 code)
 --- | --- | ---
 Arabic | 162 | [ar.json](dist/ar.json)
 Armenian | 45 | [hy.json](dist/hy.json)
