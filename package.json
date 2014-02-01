@@ -1,11 +1,21 @@
 {
   "name": "stopwords",
   "version": "0.0.1",
-  "description": "Stop words",
+  "description": "Stopwords in various languages in JSON format.",
   "main": "stopwords.js",
+  "author": {
+    "name": "Peter Graham",
+    "url": "https://github.com/6"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
   "devDependencies": {
     "glob": "3.2.x",
     "grunt": "0.4.x",
-    "underscore": "1.5.2"
+    "underscore": "1.5.2",
+    "grunt-readme": "0.4.5"
   }
 }

@@ -46,8 +46,19 @@ module.exports = function(grunt) {
   });
 
   grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json')
+    pkg: grunt.file.readJSON('package.json'),
+
+    readme: {
+      options: {
+        alt: {
+          src: ['docs/README.tmpl.md'],
+          dest: './'
+        }
+      }
+    }
   });
 
-  grunt.registerTask('default', ['stopwordsToJson']);
+  grunt.loadNpmTasks('grunt-readme');
+
+  grunt.registerTask('default', ['stopwordsToJson', 'readme']);
 };
