@@ -51,12 +51,12 @@ module.exports = function(grunt) {
     var languageCodes = Object.keys(stopwords);
 
     var table = "There are a total of "+languageCodes.length+" supported languages:\n\n";
-    table += "Language | Stopword count | File\n";
+    table += "Language | Stopword count | Filename\n";
     table += "--- | --- | ---\n";
     var rows = [];
     for (var languageCode in stopwords) {
       var wordCount = stopwords[languageCode].length,
-          file = "[dist/"+languageCode + ".json](dist/"+languageCode+".json)",
+          file = "["+languageCode + ".json](dist/"+languageCode+".json)",
           language = languages.getLanguageInfo(languageCode);
       rows.push([language.name, wordCount, file]);
     }
