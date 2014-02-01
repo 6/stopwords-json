@@ -1,7 +1,7 @@
 {
   "name": "stopwords",
   "version": "0.0.1",
-  "description": "Stopwords in various languages in JSON format.",
+  "description": "Stopwords for various languages in JSON format.",
   "main": "stopwords.js",
   "author": {
     "name": "Peter Graham",
