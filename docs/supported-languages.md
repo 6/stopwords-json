@@ -1,47 +1,47 @@
 There are a total of 43 supported languages:
 
-ISO 639-1 code | Stopword count
---- | ---
-da | 101
-de | 596
-ee | 35
-es | 577
-fi | 772
-fr | 606
-hr | 2032
-hu | 781
-it | 623
-ko | 679
-nl | 275
-no | 172
-pl | 260
-pt | 408
-ru | 539
-sv | 401
-tr | 279
-zh | 542
-eo | 173
-he | 194
-la | 49
-sk | 110
-sl | 446
-br | 126
-ca | 218
-cz | 346
-el | 75
-eu | 98
-ga | 109
-gl | 160
-hy | 45
-id | 355
-ja | 109
-lv | 161
-th | 115
-ar | 162
-bg | 259
-bn | 116
-fa | 332
-hi | 225
-mr | 99
-ro | 282
-en | 570
+Language | Stopword count | File
+--- | --- | ---
+Danish | 101 | dist/da.json
+German | 596 | dist/de.json
+Ewe | 35 | dist/ee.json
+Spanish | 577 | dist/es.json
+Finnish | 772 | dist/fi.json
+French | 606 | dist/fr.json
+Croatian | 2032 | dist/hr.json
+Hungarian | 781 | dist/hu.json
+Italian | 623 | dist/it.json
+Korean | 679 | dist/ko.json
+Dutch | 275 | dist/nl.json
+Norwegian | 172 | dist/no.json
+Polish | 260 | dist/pl.json
+Portuguese | 408 | dist/pt.json
+Russian | 539 | dist/ru.json
+Swedish | 401 | dist/sv.json
+Turkish | 279 | dist/tr.json
+Chinese | 542 | dist/zh.json
+Esperanto | 173 | dist/eo.json
+Hebrew | 194 | dist/he.json
+Latin | 49 | dist/la.json
+Slovak | 110 | dist/sk.json
+Slovenian | 446 | dist/sl.json
+Breton | 126 | dist/br.json
+Catalan | 218 | dist/ca.json
+Czech | 346 | dist/cs.json
+Greek | 75 | dist/el.json
+Basque | 98 | dist/eu.json
+Irish | 109 | dist/ga.json
+Galician | 160 | dist/gl.json
+Armenian | 45 | dist/hy.json
+Indonesian | 355 | dist/id.json
+Japanese | 109 | dist/ja.json
+Latvian | 161 | dist/lv.json
+Thai | 115 | dist/th.json
+Arabic | 162 | dist/ar.json
+Bulgarian | 259 | dist/bg.json
+Bengali | 116 | dist/bn.json
+Persian | 332 | dist/fa.json
+Hindi | 225 | dist/hi.json
+Marathi | 99 | dist/mr.json
+Romanian | 282 | dist/ro.json
+English | 570 | dist/en.json
