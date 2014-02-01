@@ -56,7 +56,7 @@ module.exports = function(grunt) {
     var rows = [];
     for (var languageCode in stopwords) {
       var wordCount = stopwords[languageCode].length,
-          file = "[dist/"+languageCode + ".json](blob/master/dist/"+languageCode+")",
+          file = "[dist/"+languageCode + ".json](dist/"+languageCode+".json)",
           language = languages.getLanguageInfo(languageCode);
       rows.push([language.name, wordCount, file]);
     }
