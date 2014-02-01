@@ -45,6 +45,20 @@ module.exports = function(grunt) {
     fs.writeFileSync("stopwords-all.json", JSON.stringify(stopwords), 'utf-8', {flags: 'w+'});
   });
 
+  grunt.registerTask('stopwordsDocs', function() {
+    var stopwords = getStopwords();
+    var languages = Object.keys(stopwords);
+
+    var table = "There are a total of "+languages.length+" supported languages:\n\n";
+    table += "ISO 639-1 code | Stopword count\n";
+    table += "--- | ---\n";
+    for (var language in stopwords) {
+      var wordCount = stopwords[language].length;
+      table += [language, wordCount].join(" | ") + "\n";
+    }
+    fs.writeFileSync("docs/supported-languages.md", table, 'utf-8', {flags: 'w+'});
+  });
+
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
@@ -60,5 +74,5 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-readme');
 
-  grunt.registerTask('default', ['stopwordsToJson', 'readme']);
+  grunt.registerTask('default', ['stopwordsToJson', 'stopwordsDocs', 'readme']);
 };

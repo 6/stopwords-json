@@ -1,13 +1,3 @@
-# stopwords
-
-> Stopwords in various languages in JSON format.
-
-* [Supported languages](#supported-languages)
-* [Sources](#sources)
-* [License and Copyright](#license-and-copyright)
-
-
-## Supported languages
 There are a total of 43 supported languages:
 
 ISO 639-1 code | Stopword count
@@ -55,12 +45,3 @@ hi | 225
 mr | 99
 ro | 282
 en | 570
-
-
-
-## Sources
-TODO
-
-## License and Copyright
-Copyright (c) 2014 Peter Graham, contributors.
-Released under the MIT license
