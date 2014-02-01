@@ -51,7 +51,7 @@ module.exports = function(grunt) {
     var languageCodes = Object.keys(stopwords);
 
     var table = "There are a total of "+languageCodes.length+" supported languages:\n\n";
-    table += "Language | Stopword count | Filename (ISO 639-1 code)\n";
+    table += "Language | Stopword count | Filename\n";
     table += "--- | --- | ---\n";
     var rows = [];
     for (var languageCode in stopwords) {

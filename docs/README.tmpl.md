@@ -4,7 +4,7 @@
 
 > Stop words are words which are filtered out prior to, or after, processing of natural language data [...] these are some of the most common, short function words, such as *the*, *is*, *at*, *which*, and *on*.
 
-Include all stopwords with [stopwords-all.json](stopwords-all.json) or see below table for individual language files.
+Use all stopwords with [stopwords-all.json](stopwords-all.json) (keyed by language ISO 639-1 code) or see below table for individual language files.
 
 ## Languages
 {%= _.doc("supported-languages.md") %}

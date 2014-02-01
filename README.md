@@ -4,12 +4,12 @@ Stopwords in various languages in JSON format. Per [Wikipedia](http://en.wikiped
 
 > Stop words are words which are filtered out prior to, or after, processing of natural language data [...] these are some of the most common, short function words, such as *the*, *is*, *at*, *which*, and *on*.
 
-Include all stopwords with [stopwords-all.json](stopwords-all.json) or see below table for individual language files.
+Use all stopwords with [stopwords-all.json](stopwords-all.json) (keyed by language ISO 639-1 code) or see below table for individual language files.
 
 ## Languages
 There are a total of 43 supported languages:
 
-Language | Stopword count | Filename (ISO 639-1 code)
+Language | Stopword count | Filename
 --- | --- | ---
 Arabic | 162 | [ar.json](dist/ar.json)
 Armenian | 45 | [hy.json](dist/hy.json)

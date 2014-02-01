@@ -1,6 +1,6 @@
 There are a total of 43 supported languages:
 
-Language | Stopword count | Filename (ISO 639-1 code)
+Language | Stopword count | Filename
 --- | --- | ---
 Arabic | 162 | [ar.json](dist/ar.json)
 Armenian | 45 | [hy.json](dist/hy.json)
