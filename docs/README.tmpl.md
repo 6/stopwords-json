@@ -1,6 +1,10 @@
 # {%= name %}
 
-{%= description %} Include all stopwords with [stopwords-all.json](stopwords-all.json) or see below table for individual language files.
+{%= description %} Per [Wikipedia](http://en.wikipedia.org/wiki/Stop_words):
+
+> Stop words are words which are filtered out prior to, or after, processing of natural language data [...] these are some of the most common, short function words, such as *the*, *is*, *at*, *which*, and *on*.
+
+Include all stopwords with [stopwords-all.json](stopwords-all.json) or see below table for individual language files.
 
 ## Languages
 {%= _.doc("supported-languages.md") %}
