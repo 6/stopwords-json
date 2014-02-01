@@ -63,7 +63,7 @@ Turkish | 279 | [dist/tr.json](dist/tr.json)
 - [Carrot2](https://github.com/carrot2/carrot2) - [License](http://project.carrot2.org/license.html)
 - [cue.language](https://github.com/vcl/cue.language) - [Apache 2.0 License](https://github.com/vcl/cue.language/blob/master/license.txt)
 - [Jacques Savoy](http://members.unine.ch/jacques.savoy/clef/index.html) - BSD License
-- [SMART Information Retrieval System](ftp://ftp.cs.cornell.edu/pub/smart/)
+- SMART Information Retrieval System: ftp://ftp.cs.cornell.edu/pub/smart/
 
 ## License and Copyright
 Copyright (c) 2014 Peter Graham, contributors.
