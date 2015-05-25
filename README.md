@@ -25,7 +25,7 @@ Danish | 101 | [da.json](dist/da.json)
 Dutch | 275 | [nl.json](dist/nl.json)
 English | 570 | [en.json](dist/en.json)
 Esperanto | 173 | [eo.json](dist/eo.json)
-Ewe | 35 | [ee.json](dist/ee.json)
+Estonian | 35 | [et.json](dist/et.json)
 Finnish | 772 | [fi.json](dist/fi.json)
 French | 606 | [fr.json](dist/fr.json)
 Galician | 160 | [gl.json](dist/gl.json)
@@ -65,5 +65,5 @@ Turkish | 279 | [tr.json](dist/tr.json)
 - SMART Information Retrieval System: ftp://ftp.cs.cornell.edu/pub/smart/
 
 ## License and Copyright
-Copyright (c) 2014 Peter Graham, contributors.
+Copyright (c) 2015 Peter Graham, contributors.
 Released under the Apache-2.0 license
