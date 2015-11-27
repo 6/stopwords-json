@@ -11,6 +11,7 @@ There are a total of 43 supported languages:
 
 Language | Stopword count | Filename
 --- | --- | ---
+Afrikaans | 51 | [af.json](dist/af.json)
 Arabic | 162 | [ar.json](dist/ar.json)
 Armenian | 45 | [hy.json](dist/hy.json)
 Basque | 98 | [eu.json](dist/eu.json)
@@ -51,6 +52,7 @@ Russian | 539 | [ru.json](dist/ru.json)
 Slovak | 110 | [sk.json](dist/sk.json)
 Slovenian | 446 | [sl.json](dist/sl.json)
 Spanish | 577 | [es.json](dist/es.json)
+Swahili | 74 | [sw.json](dist/sw.json)
 Swedish | 401 | [sv.json](dist/sv.json)
 Thai | 115 | [th.json](dist/th.json)
 Turkish | 279 | [tr.json](dist/tr.json)
@@ -63,6 +65,7 @@ Turkish | 279 | [tr.json](dist/tr.json)
 - [cue.language](https://github.com/vcl/cue.language) - [Apache 2.0 License](https://github.com/vcl/cue.language/blob/master/license.txt)
 - [Jacques Savoy](http://members.unine.ch/jacques.savoy/clef/index.html) - BSD License
 - SMART Information Retrieval System: ftp://ftp.cs.cornell.edu/pub/smart/
+- [ASP Stoplist Project](https://github.com/dohliam/more-stoplists) - CC-BY and Apache 2.0
 
 ## License and Copyright
 Copyright (c) 2015 Peter Graham, contributors.
