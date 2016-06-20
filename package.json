@@ -1,5 +1,5 @@
 {
-  "name": "stopwords",
+  "name": "stopwords-json",
   "version": "0.0.2",
   "description": "Stopwords for various languages in JSON format.",
   "main": "stopwords-all.json",
