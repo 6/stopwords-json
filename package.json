@@ -7,11 +7,14 @@
     "name": "Peter Graham",
     "url": "https://github.com/6"
   },
-  "licenses": [
-    {
-      "type": "Apache-2.0"
-    }
-  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/6/stopwords.git"
+  },
+  "bugs": {
+    "url": "http://github.com/6/stopwords/issues"
+  },
+  "license": "Apache-2.0",
   "devDependencies": {
     "glob": "3.2.x",
     "grunt": "0.4.x",
