@@ -15,7 +15,8 @@
     "url": "http://github.com/6/stopwords/issues"
   },
   "scripts": {
-    "test": "jsonlint stopwords-all.json --quiet && jsonlint dist/*.json --quiet"
+    "lint": "jsonlint stopwords-all.json --quiet && jsonlint dist/*.json --quiet",
+    "test": "npm run lint && tape test/*.js"
   },
   "license": "Apache-2.0",
   "devDependencies": {
@@ -24,6 +25,7 @@
     "grunt-readme": "0.4.5",
     "jsonlint": "github:ginman86/jsonlint#c95cda5",
     "languages": "0.1.3",
+    "tape": "^4.6.0",
     "underscore": "1.5.2"
   }
 }
