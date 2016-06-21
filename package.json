@@ -1,6 +1,6 @@
 {
   "name": "stopwords-json",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Stopwords for various languages in JSON format.",
   "main": "stopwords-all.json",
   "author": {
