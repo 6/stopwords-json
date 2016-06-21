@@ -22,7 +22,7 @@
     "glob": "3.2.x",
     "grunt": "0.4.x",
     "grunt-readme": "0.4.5",
-    "jsonlint": "^1.6.2",
+    "jsonlint": "github:ginman86/jsonlint#c95cda5",
     "languages": "0.1.3",
     "underscore": "1.5.2"
   }
