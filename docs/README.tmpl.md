@@ -1,4 +1,4 @@
-# {%= name %} [![CircleCI](https://circleci.com/gh/6/stopwords-json.svg?style=svg)](https://circleci.com/gh/6/stopwords-json)
+# {%= name %} [![CircleCI](https://circleci.com/gh/6/stopwords-json.svg?style=svg)](https://circleci.com/gh/6/stopwords-json) [![npm](https://img.shields.io/npm/v/stopwords-json.svg?maxAge=2592000)](https://www.npmjs.com/package/stopwords-json) [![Bower](https://img.shields.io/bower/v/stopwords-json.svg?maxAge=2592000)]()
 
 {%= description %} Per [Wikipedia](http://en.wikipedia.org/wiki/Stop_words):
 
