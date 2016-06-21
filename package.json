@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/6/stopwords.git"
+    "url": "http://github.com/6/stopwords-json.git"
   },
   "bugs": {
-    "url": "http://github.com/6/stopwords/issues"
+    "url": "http://github.com/6/stopwords-json/issues"
   },
   "scripts": {
     "lint": "jsonlint stopwords-all.json --quiet && jsonlint dist/*.json --quiet",

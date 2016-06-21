@@ -1,4 +1,4 @@
-# {%= name %} [![CircleCI](https://circleci.com/gh/6/stopwords.svg?style=svg)](https://circleci.com/gh/6/stopwords)
+# {%= name %} [![CircleCI](https://circleci.com/gh/6/stopwords-json.svg?style=svg)](https://circleci.com/gh/6/stopwords-json)
 
 {%= description %} Per [Wikipedia](http://en.wikipedia.org/wiki/Stop_words):
 
