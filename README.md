@@ -1,4 +1,4 @@
-# stopwords
+# stopwords [![CircleCI](https://circleci.com/gh/6/stopwords.svg?style=svg)](https://circleci.com/gh/6/stopwords)
 
 Stopwords for various languages in JSON format. Per [Wikipedia](http://en.wikipedia.org/wiki/Stop_words):
 
