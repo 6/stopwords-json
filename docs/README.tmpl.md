@@ -1,4 +1,4 @@
-# {%= name %} [![Build Status](https://travis-ci.org/6/stopwords-json.svg?branch=travis)](https://travis-ci.org/6/stopwords-json) [![npm](https://img.shields.io/npm/v/stopwords-json.svg?maxAge=3600)](https://www.npmjs.com/package/stopwords-json) [![Bower](https://img.shields.io/bower/v/stopwords-json.svg?maxAge=3600)]()
+# {%= name %} [![Build Status](https://travis-ci.org/6/stopwords-json.svg?branch=travis)](https://travis-ci.org/6/stopwords-json) [![npm](https://img.shields.io/npm/v/stopwords-json.svg?maxAge=3600)](https://www.npmjs.com/package/stopwords-json) [![Bower](https://img.shields.io/bower/v/stopwords-json.svg?maxAge=3600)](https://bower.io/)
 
 {%= description %} Per [Wikipedia](http://en.wikipedia.org/wiki/Stop_words):
 
