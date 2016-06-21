@@ -1,0 +1,30 @@
+{
+  "name": "stopwords-json",
+  "version": "0.0.3",
+  "homepage": "https://github.com/6/stopwords",
+  "authors": [
+    "Peter Graham"
+  ],
+  "description": "Stopwords for various languages in JSON format.",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "languages",
+    "stemmer",
+    "stop words",
+    "stopwords"
+  ],
+  "license": "Apache-2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "docs",
+    "src",
+    "Gruntfile.js"
+  ]
+}
