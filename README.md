@@ -1,4 +1,4 @@
-# stopwords [![CircleCI](https://circleci.com/gh/6/stopwords.svg?style=svg)](https://circleci.com/gh/6/stopwords)
+# stopwords-json [![CircleCI](https://circleci.com/gh/6/stopwords.svg?style=svg)](https://circleci.com/gh/6/stopwords)
 
 Stopwords for various languages in JSON format. Per [Wikipedia](http://en.wikipedia.org/wiki/Stop_words):
 
@@ -65,5 +65,5 @@ Turkish | 279 | [tr.json](dist/tr.json)
 - SMART Information Retrieval System: ftp://ftp.cs.cornell.edu/pub/smart/
 
 ## License and Copyright
-Copyright (c) 2015 Peter Graham, contributors.
-Released under the Apache-2.0 license
+Copyright (c) 2016 Peter Graham, contributors.
+Released under the Apache-2.0 license.

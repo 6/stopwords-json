@@ -1,4 +1,4 @@
-# {%= name %}
+# {%= name %} [![CircleCI](https://circleci.com/gh/6/stopwords.svg?style=svg)](https://circleci.com/gh/6/stopwords)
 
 {%= description %} Per [Wikipedia](http://en.wikipedia.org/wiki/Stop_words):
 
@@ -19,4 +19,4 @@ You can use all stopwords with [stopwords-all.json](stopwords-all.json) (keyed b
 
 ## License and Copyright
 {%= copyright %}
-{%= license %}
+Released under the {%= licenseName %} license.
