@@ -16,6 +16,7 @@ You can use all stopwords with [stopwords-all.json](stopwords-all.json) (keyed b
 - [cue.language](https://github.com/vcl/cue.language) - [Apache 2.0 License](https://github.com/vcl/cue.language/blob/master/license.txt)
 - [Jacques Savoy](http://members.unine.ch/jacques.savoy/clef/index.html) - BSD License
 - SMART Information Retrieval System: ftp://ftp.cs.cornell.edu/pub/smart/
+- [ASP Stoplist Project](https://github.com/dohliam/more-stoplists) - CC-BY and Apache 2.0
 
 ## License and Copyright
 {%= copyright %}
