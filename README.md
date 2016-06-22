@@ -7,7 +7,7 @@ Stopwords for various languages in JSON format. Per [Wikipedia](http://en.wikipe
 You can use all stopwords with [stopwords-all.json](stopwords-all.json) (keyed by language ISO 639-1 code), or see the below table for individual language stopword files.
 
 ## Languages
-There are a total of 43 supported languages:
+There are a total of 50 supported languages:
 
 Language | Stopword count | Filename
 --- | --- | ---
@@ -32,6 +32,7 @@ French | 606 | [fr.json](dist/fr.json)
 Galician | 160 | [gl.json](dist/gl.json)
 German | 596 | [de.json](dist/de.json)
 Greek | 75 | [el.json](dist/el.json)
+Hausa | 39 | [ha.json](dist/ha.json)
 Hebrew | 194 | [he.json](dist/he.json)
 Hindi | 225 | [hi.json](dist/hi.json)
 Hungarian | 781 | [hu.json](dist/hu.json)
@@ -49,13 +50,17 @@ Polish | 260 | [pl.json](dist/pl.json)
 Portuguese | 408 | [pt.json](dist/pt.json)
 Romanian | 282 | [ro.json](dist/ro.json)
 Russian | 539 | [ru.json](dist/ru.json)
+Sesotho | 31 | [st.json](dist/st.json)
 Slovak | 110 | [sk.json](dist/sk.json)
 Slovenian | 446 | [sl.json](dist/sl.json)
+Somali | 30 | [so.json](dist/so.json)
 Spanish | 577 | [es.json](dist/es.json)
 Swahili | 74 | [sw.json](dist/sw.json)
 Swedish | 401 | [sv.json](dist/sv.json)
 Thai | 115 | [th.json](dist/th.json)
 Turkish | 279 | [tr.json](dist/tr.json)
+Yoruba | 60 | [yo.json](dist/yo.json)
+isiZulu | 29 | [zu.json](dist/zu.json)
 
 
 ## Sources
