@@ -4,6 +4,8 @@ var fs = require('fs'),
     languages = require('languages');
 
 module.exports = function(grunt) {
+  var pkg = grunt.file.readJSON('package.json');
+
   var wordsInFile = function(file) {
     var words = [];
     var lines = file.split(/[\n\r]+/);
@@ -70,13 +72,16 @@ module.exports = function(grunt) {
   });
 
   grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json'),
+    pkg: pkg,
 
     readme: {
       options: {
         alt: {
           src: ['docs/README.tmpl.md'],
           dest: './'
+        },
+        metadata: {
+          licenseName: pkg.license
         }
       }
     }
