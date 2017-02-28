@@ -38,7 +38,7 @@ Hindi | 225 | [hi.json](dist/hi.json)
 Hungarian | 781 | [hu.json](dist/hu.json)
 Indonesian | 355 | [id.json](dist/id.json)
 Irish | 109 | [ga.json](dist/ga.json)
-Italian | 623 | [it.json](dist/it.json)
+Italian | 619 | [it.json](dist/it.json)
 Japanese | 109 | [ja.json](dist/ja.json)
 Korean | 679 | [ko.json](dist/ko.json)
 Latin | 49 | [la.json](dist/la.json)
@@ -73,5 +73,5 @@ Zulu | 29 | [zu.json](dist/zu.json)
 - [ASP Stoplist Project](https://github.com/dohliam/more-stoplists) - CC-BY and Apache 2.0
 
 ## License and Copyright
-Copyright (c) 2016 Peter Graham, contributors.
+Copyright (c) 2017 Peter Graham, contributors.
 Released under the Apache-2.0 license.
