@@ -1,0 +1,9 @@
+
+dist
+docs
+src
+test
+package-lock.json
+.travis.yml
+Gruntfile.js
+node_modules
