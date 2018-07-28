@@ -49,7 +49,7 @@ Persian | 332 | [fa.json](dist/fa.json)
 Polish | 260 | [pl.json](dist/pl.json)
 Portuguese | 408 | [pt.json](dist/pt.json)
 Romanian | 282 | [ro.json](dist/ro.json)
-Russian | 539 | [ru.json](dist/ru.json)
+Russian | 537 | [ru.json](dist/ru.json)
 Slovak | 110 | [sk.json](dist/sk.json)
 Slovenian | 446 | [sl.json](dist/sl.json)
 Somalia | 30 | [so.json](dist/so.json)
@@ -73,5 +73,5 @@ Zulu | 29 | [zu.json](dist/zu.json)
 - [ASP Stoplist Project](https://github.com/dohliam/more-stoplists) - CC-BY and Apache 2.0
 
 ## License and Copyright
-Copyright (c) 2017 Peter Graham, contributors.
+Copyright (c) 2018 Peter Graham, contributors.
 Released under the Apache-2.0 license.
