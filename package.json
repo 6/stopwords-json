@@ -15,7 +15,7 @@
     "url": "http://github.com/6/stopwords-json/issues"
   },
   "scripts": {
-    "lint": "jsonlint stopwords-all.json --quiet && jsonlint dist/*.json --quiet",
+    "lint": "jsonlint stopwords-all.json --quiet",
     "test": "npm run lint && tape test/*.js"
   },
   "keywords": [
@@ -29,7 +29,7 @@
     "glob": "3.2.x",
     "grunt": "0.4.x",
     "grunt-readme": "0.4.5",
-    "jsonlint": "github:ginman86/jsonlint#c95cda5",
+    "jsonlint": "^1.6.3",
     "languages": "0.1.3",
     "tape": "^4.6.0",
     "underscore": "1.5.2"
