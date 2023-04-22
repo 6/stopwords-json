@@ -7,7 +7,7 @@ Stopwords for various languages in JSON format. Per [Wikipedia](http://en.wikipe
 You can use all stopwords with [stopwords-all.json](stopwords-all.json) (keyed by language ISO 639-1 code), or see the below table for individual language stopword files.
 
 ## Languages
-There are a total of 50 supported languages:
+There are a total of 51 supported languages:
 
 Language | Stopword count | Filename
 --- | --- | ---
@@ -24,6 +24,7 @@ Croatian | 179 | [hr.json](dist/hr.json)
 Czech | 346 | [cs.json](dist/cs.json)
 Danish | 101 | [da.json](dist/da.json)
 Dutch | 275 | [nl.json](dist/nl.json)
+Ethiopian | 295 | [am.json](dist/am.json)
 English | 570 | [en.json](dist/en.json)
 Esperanto | 173 | [eo.json](dist/eo.json)
 Estonian | 35 | [et.json](dist/et.json)
